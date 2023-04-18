@@ -37,9 +37,15 @@ If your application is native only, you can avoid the async runtime (`tokio` or 
 
 ## Triangle [[code](https://github.com/asny/three-d/tree/master/examples/triangle/src/main.rs)] [[demo](https://asny.github.io/three-d/0.16/triangle.html)]
 
-This is the recomended starting point for a gentle introduction to `three-d`.
+This is the recommended starting point for a gentle introduction to `three-d`.
 
 ![Triangle example](https://asny.github.io/three-d/0.16/triangle.png)
+
+## Triangle core [[code](https://github.com/asny/three-d/tree/master/examples/triangle_core/src/main.rs)] [[demo](https://asny.github.io/three-d/0.16/triangle_core.html)]
+
+This is the same as the `Triangle` example, except it only uses the core module and not the renderer module.
+
+![Triangle core example](https://asny.github.io/three-d/0.16/triangle_core.png)
 
 ## Mandelbrot [[code](https://github.com/asny/three-d/tree/master/examples/mandelbrot/src/main.rs)] [[demo](https://asny.github.io/three-d/0.16/mandelbrot.html)]
 
@@ -146,6 +152,16 @@ This example shows how depth ordering is currently working for `InstancedMesh` o
 ## Logo [[code](https://github.com/asny/three-d/tree/master/examples/logo/src/main.rs)] [[demo](https://asny.github.io/three-d/0.16/logo.html)]
 
 ![Logo example](https://asny.github.io/three-d/0.16/logo.png)
+
+## Winit window [[code](https://github.com/asny/three-d/tree/master/examples/winit_window/src/main.rs)] [[demo](https://asny.github.io/three-d/0.16/winit_window.html)]
+
+Shows how to easily combine a custom [winit](https://crates.io/crates/winit) window with `three-d` rendering.
+
+![Winit window example](https://asny.github.io/three-d/0.16/winit_window.png)
+
+## Multiwindow [[code](https://github.com/asny/three-d/tree/master/examples/multiwindow/src/main.rs)] [[demo](https://asny.github.io/three-d/0.16/multiwindow.html)]
+
+Shows how to create multiple [winit](https://crates.io/crates/winit) windows and render with `three-d`.
 
 ## Headless [[code](https://github.com/asny/three-d/tree/master/examples/headless/src/main.rs)]
 
